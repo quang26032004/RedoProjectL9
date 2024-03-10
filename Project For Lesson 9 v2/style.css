@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    border: 1px solid red;
+}
+
+.data-content{
+    min-width: 300px;
+    flex: 5;
+    padding: 10px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid black;
+}
